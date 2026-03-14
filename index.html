@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Age Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="age-card" aria-labelledby="app-title">
+      <h1 id="app-title">Age Calculator</h1>
+
+      <div class="input-group">
+        <label for="birthDate">Date of Birth</label>
+        <input id="birthDate" type="date" max="" />
+      </div>
+
+      <button id="calculateBtn" type="button">Calculate Age</button>
+
+      <div id="result" class="result" aria-live="polite">
+        Select your date of birth and click calculate.
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
